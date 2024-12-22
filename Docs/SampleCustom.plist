@@ -1433,6 +1433,8 @@
 			<data>Bw==</data>
 			<key>DevicePathsSupported</key>
 			<integer>1</integer>
+			<key>CoprocessorVersion</key>
+			<integer>131072</integer>
 			<key>FSBFrequency</key>
 			<integer>0</integer>
 			<key>InitialTSC</key>
