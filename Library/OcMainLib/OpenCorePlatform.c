@@ -97,6 +97,10 @@ OcPlatformUpdateDataHub (
     if (Config->PlatformInfo.DataHub.DevicePathsSupported != 0) {
       Data.DevicePathsSupported = &Config->PlatformInfo.DataHub.DevicePathsSupported;
     }
+    
+    if (Config->PlatformInfo.DataHub.CoprocessorVersion != 0) {
+      Data.CoprocessorVersion = &Config->PlatformInfo.DataHub.CoprocessorVersion;
+    }
 
     if (  (Config->PlatformInfo.DataHub.SmcRevision[0] != 0)
        || (Config->PlatformInfo.DataHub.SmcRevision[1] != 0)
