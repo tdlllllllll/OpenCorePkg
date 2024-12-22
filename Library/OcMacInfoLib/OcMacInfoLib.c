@@ -122,7 +122,7 @@ GetMacInfo (
 
   MacInfo->DataHub.DevicePathsSupported = &mDevicePathsSupported;
 
-  if (InternalEntry->SmcGeneration = 3) {
+  if (InternalEntry->SmcGeneration == 3) {
     MacInfo->DataHub.CoprocessorVersion = &mCoprocessorVersion;
   }
 
