@@ -154,6 +154,7 @@ OcPlatformUpdateDataHub (
     InitialTSC                = 0;
     Data.InitialTSC           = &InitialTSC;
     Data.DevicePathsSupported = &MacInfo->DataHub.DevicePathsSupported[0];
+    Data.CoprocessorVersion   = &MacInfo->DataHub.CoprocessorVersion[0];
 
     Data.SmcRevision = &MacInfo->DataHub.SmcRevision[0];
     Data.SmcBranch   = &MacInfo->DataHub.SmcBranch[0];
