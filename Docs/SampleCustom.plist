@@ -1432,7 +1432,7 @@
 			<key>BoardRevision</key>
 			<data>Bw==</data>
 			<key>CoprocessorVersion</key>
-			<integer>131072</integer>
+			<integer>0</integer>
 			<key>DevicePathsSupported</key>
 			<integer>1</integer>
 			<key>FSBFrequency</key>
