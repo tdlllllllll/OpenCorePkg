@@ -1431,6 +1431,8 @@
 			<string>Mac-AA95B1DDAB278B95</string>
 			<key>BoardRevision</key>
 			<data>Bw==</data>
+			<key>CoprocessorVersion</key>
+			<integer>0</integer>
 			<key>DevicePathsSupported</key>
 			<integer>1</integer>
 			<key>FSBFrequency</key>
