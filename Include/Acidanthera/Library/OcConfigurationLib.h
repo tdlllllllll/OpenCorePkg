@@ -516,6 +516,7 @@ OC_DECLARE (OC_PLATFORM_GENERIC_CONFIG)
   _(UINT64                      , FSBFrequency        ,     , 0                                , () )                   \
   _(UINT64                      , ARTFrequency        ,     , 0                                , () )                   \
   _(UINT32                      , DevicePathsSupported,     , 0                                , () )                   \
+  _(UINT32                      , CoprocessorVersion  ,     , 0                                , () )                   \
   _(UINT8                       , SmcRevision         , [6] , {0}                              , () )                   \
   _(UINT8                       , SmcBranch           , [8] , {0}                              , () )                   \
   _(UINT8                       , SmcPlatform         , [8] , {0}                              , () )
