@@ -24,7 +24,6 @@
 #include "MacInfoInternal.h"
 
 STATIC CONST UINT32  mDevicePathsSupported = 1;
-STATIC CONST UINT32  mCoprocessorVersion   = 131072;
 
 STATIC
 CONST MAC_INFO_64BIT_COMPAT_ENTRY  gMac64BitModels[] = {
@@ -121,10 +120,6 @@ GetMacInfo (
   }
 
   MacInfo->DataHub.DevicePathsSupported = &mDevicePathsSupported;
-
-  if (InternalEntry->SmcGeneration == 3) {
-    MacInfo->DataHub.CoprocessorVersion = &mCoprocessorVersion;
-  }
 
   //
   // T2-based macs have no SMC branch or revision.
