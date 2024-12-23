@@ -1398,6 +1398,8 @@
 		<false/>
 		<key>Generic</key>
 		<dict>
+			<key>AddCoprocessorEntry</key>
+			<false/>
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
